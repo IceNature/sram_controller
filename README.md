@@ -1,4 +1,4 @@
-A simple Controller for SRAM IS61WV12816BLL-10BLI.
+A simple controller for SRAM IS61WV12816BLL-10BLI.
 
 ## Features
 * A0-A18 Address
@@ -11,4 +11,5 @@ A simple Controller for SRAM IS61WV12816BLL-10BLI.
     * When `rw == 1'b0`, read
 * When the operations complete, the `read_finish` or `write_finish` with generates a high voltage pulse, which will last a clock period.
 
-## Licence
+## License
+[BSD3 License](./LICENSE)
